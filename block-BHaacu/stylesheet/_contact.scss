@@ -1,0 +1,45 @@
+  
+/*Contact Us*/
+
+/*Infomation*/
+.info {
+    background-color: $general;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    i {
+        background-color: rgb(235, 231, 231);
+        padding: 2rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        color: $primary;
+    }
+    h6 {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    address, a {
+        color: rgb(158, 157, 157);
+    }
+}
+
+/*Contact*/
+.contact {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+form {
+    display: inline;
+    input, textarea {
+        width: 100%;
+        border-radius: 0.2rem;
+        padding: 0.8rem;
+        margin: 1rem;
+        outline: none;
+        border: 1px solid rgb(158, 157, 157);
+        &:focus {
+            border: 1px solid black;
+        }
+    }
+}
