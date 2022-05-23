@@ -1,0 +1,45 @@
+/*Pricing*/
+.detail {
+    padding: 3rem 0;
+    background-color: $general;
+    text-align: center;
+     
+    .box {
+        border-radius: 0.2rem;
+        border: 1px solid rgb(209, 206, 206);
+        background-color: $white;
+        padding: 2rem;
+        strong {
+            font-weight: 900;
+            font-size: 2rem;
+        }
+        .license {
+            color: gray;
+        }
+        p {
+            color: black;
+        }
+        ul {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.question {
+    padding: 3rem 0;
+    text-align: center;
+    article {
+        text-align: left;
+    }
+    .que-box {
+        padding: 1.5rem;
+        border: 1px solid rgb(212, 210, 210);
+        border-radius: 0.2rem;
+        margin: 2rem 0;
+        h6 {
+            font-weight: 500;
+            padding-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+    }
+}

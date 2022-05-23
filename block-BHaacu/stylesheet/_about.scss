@@ -1,0 +1,59 @@
+/*About Page*/
+
+/*About*/
+.about{
+    margin: 2rem 0;
+    p{
+        font-size: 1.2rem;
+    }
+}
+.vision {
+    padding: 2rem 0;
+   
+}
+.active {
+    color: $primary;
+    font-size: 0.8rem;
+}
+
+/*Vision*/
+.vision {
+    i {
+        font-size: 3rem;
+        margin-right: 1rem;
+        color: $footer;
+    }
+    strong {
+        color: $footer;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+/*Our Team*/
+.team {
+    background-color: $general;
+    padding: 3rem 0;
+    text-align: center;
+    img {
+        padding-bottom: 2rem;
+    }
+    .color {
+        background-color: white;
+    }
+    p {
+        line-height: 0.5;
+        color: black;
+    }
+    .active {
+        color: $primary;
+    }
+}
+
+/*Solution*/
+.solution {
+    background-color: $white;
+    padding: 3rem 0;
+    text-align: center;
+}
