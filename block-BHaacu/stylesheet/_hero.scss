@@ -1,0 +1,72 @@
+/*Main*/
+
+/*Hero*/
+.hero {
+    text-align: left;
+    background: url(../assets/media/banner-1.jpg) 50% 50% no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding: 3rem 0;
+    height: 40rem;
+    top: -4rem;
+    h1 {
+        padding-top: 12rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    h5 {
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+}
+
+/*Service*/
+.service {
+    text-align: center;
+    padding: 1.5rem 0;
+    article {
+        padding: 3rem 1rem;
+        border: 1px solid #899097;
+        border-radius: .8rem;
+        margin: 1rem;
+        img {
+            width: 30%;
+        }
+    }
+}
+
+/*Solution*/
+.solution {
+    margin-top: 3rem;
+    background-color: $general;
+    text-align: center;
+    p{
+        padding: 2rem 10rem;
+    }
+}
+
+/*Consulting*/
+.consulting {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    article {
+        text-align: center;
+        margin: 2rem;
+    }
+    img[src$=".png"] {
+        width: 20%;
+    }
+    img[src$=".jpg"] {
+        border-radius: 0.2rem;
+    }
+}
+
+// client section
+.overflow{
+    overflow: scroll;
+}
+.overflow::-webkit-scrollbar{
+    display: none;
+}
